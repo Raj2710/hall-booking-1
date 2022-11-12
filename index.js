@@ -4,7 +4,7 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import { hallRouter } from "./routers.js";
 
-dotenv.config();
+// dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 8000;
 
